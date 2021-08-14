@@ -24,7 +24,7 @@ app.post('/post', (req,res) => {
 
 app.get('/api', (req,res) => {
     res.json({message: "hello from the server"});
-    console.log("thisalfjkdsjflasdjkfla;sdjkflas;dfkjlsdkjflsakjdflsakjdflsadkjflskdjflksdjflksadjflkjfd",user);
+    
 });
 
 const Port = process.env.PORT || 8000;
